@@ -1,0 +1,43 @@
+
+
+nav{
+    width: 100%;
+    height: 10vh;
+    position:relative;
+    display: flex;
+    top: 0;
+    justify-content: left;
+    background: linear-gradient(120deg ,  #0067b0 0%,
+  #0067b0 33%,
+  #003c78 33%,
+  #003c78 66%,
+  #e32619 66%,
+  #e32619 99%);
+    align-items: center;
+    backdrop-filter:blur(10px);
+    z-index: 1000;
+}
+
+
+nav img{
+    padding-left: 20px;
+}
+.nav-container ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 70px;
+    gap:20px;
+
+}
+
+.nav-container ul a{
+    color: white;
+    text-decoration: none;
+    font-family: 'nunito';
+
+}
+
+
+
+
