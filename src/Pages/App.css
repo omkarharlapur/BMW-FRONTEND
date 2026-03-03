@@ -8,9 +8,9 @@
  margin-top: 50px;   
 } */
 
-.intro-video video{
-    width: 100vw;
-    height: 100%;
+.intro-image img{
+    width: 100%;
+    height: 100vh;
     object-fit: cover;
     display: block;
 }
@@ -80,17 +80,26 @@
 
 .form-container{
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "bebas neue";
     font-weight: 200;
     font-size: 20px;
+  
+}
+
+.form-container.register-page{
     background-image: url('/bmwwallp');
     background-size:cover;
- 
+}
 
+.form-container.login-page{
+     background-image: url("/arthur.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
 }
 
 

@@ -3,16 +3,17 @@
 nav{
     width: 100%;
     height: 10vh;
-    position:relative;
+    position:absolute;
     display: flex;
-    top: 0;
+
     justify-content: left;
-    background: linear-gradient(120deg ,  #0067b0 0%,
+    /* background: linear-gradient(120deg ,  #0067b0 0%,
   #0067b0 33%,
   #003c78 33%,
   #003c78 66%,
   #e32619 66%,
-  #e32619 99%);
+  #e32619 99%); */
+  background:transparent;
     align-items: center;
     backdrop-filter:blur(10px);
     z-index: 1000;

@@ -140,7 +140,7 @@ else{
 
     return (
 
-        <div className="form-container">
+        <div className="form-container register-page">
             <div className="form-holder">
             <form onSubmit={handleRegister} autocomplete="off">
                 <label htmlFor="username">Enter Username</label>

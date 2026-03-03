@@ -23,8 +23,9 @@ export default function Home(){
 
     return(
         <div className="hero-container">
-            <div className="intro-video">
-                <video src="/13103349_1920_1080_60fps.mp4" autoPlay loop muted></video>
+            <div className="intro-image">
+                {/* <video src="introvid.mp4" autoPlay loop muted></video> */}
+                <img src="ASAN.jpg" alt="" />
             </div>
             <div className="divider" >
                 <h1>A GERMAN MACHINE</h1>
